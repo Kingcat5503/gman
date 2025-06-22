@@ -4,5 +4,6 @@
 
 ## Installation
 
+If Using yay :
 ```bash
-pip install .
+yay -S python-typer python-pytorch python-transformers
