@@ -1,0 +1,14 @@
+[project]
+name = "gman"
+version = "0.1.0"
+description = "AI-powered CLI man pages using BitNet"
+authors = [ { name = "Your Name", email = "you@example.com" } ]
+license = { text = "MIT" }
+readme = "README.md"
+
+[project.scripts]
+gman = "govman.cli:app"
+
+[build-system]
+requires = [ "setuptools>=42", "wheel" ]
+build-backend = "setuptools.build_meta"

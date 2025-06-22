@@ -1,0 +1,18 @@
+pkgbase = gman
+	pkgdesc = AI-powered CLI ‘man’ tool using BitNet (via Transformers + PyTorch)
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/yourusername/govman
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	makedepends = git
+	depends = python
+	depends = python-typer
+	depends = python-fuzzywuzzy
+	depends = python-pytorch
+	depends = python-transformers
+	source = gman-0.1.0.tar.gz::https://github.com/yourusername/govman/archive/refs/tags/v0.1.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = gman
